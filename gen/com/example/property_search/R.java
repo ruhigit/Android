@@ -1639,7 +1639,8 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020033;
     }
     public static final class id {
-        public static final int GridLayout1=0x7f090041;
+        public static final int GridLayout1=0x7f090043;
+        public static final int LinearLayout01=0x7f090048;
         public static final int action_bar=0x7f090033;
         public static final int action_bar_activity_content=0x7f090003;
         public static final int action_bar_container=0x7f090032;
@@ -1653,12 +1654,12 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f090030;
         public static final int action_mode_bar_stub=0x7f09002f;
         public static final int action_mode_close_button=0x7f090022;
-        public static final int action_settings=0x7f090046;
+        public static final int action_settings=0x7f090049;
         public static final int activity_chooser_view_content=0x7f090023;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
         public static final int bottom=0x7f09001e;
-        public static final int button1=0x7f090045;
+        public static final int button1=0x7f090047;
         public static final int checkbox=0x7f09002b;
         public static final int collapseActionView=0x7f090015;
         public static final int decor_content_parent=0x7f090031;
@@ -1675,10 +1676,11 @@ containing a value of this type.
         public static final int icon=0x7f090028;
         public static final int ifRoom=0x7f090016;
         public static final int image=0x7f090025;
-        public static final int input1=0x7f090042;
-        public static final int input2=0x7f090043;
+        public static final int input1=0x7f090044;
+        public static final int input2=0x7f090045;
         public static final int listMode=0x7f09000a;
         public static final int list_item=0x7f090027;
+        public static final int main_table=0x7f090042;
         public static final int middle=0x7f09001d;
         public static final int never=0x7f090017;
         public static final int none=0x7f09000f;
@@ -1686,6 +1688,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
         public static final int radio=0x7f09002d;
+        public static final int scrollView1=0x7f090041;
         public static final int search_badge=0x7f090037;
         public static final int search_bar=0x7f090036;
         public static final int search_button=0x7f090038;
@@ -1701,7 +1704,7 @@ containing a value of this type.
         public static final int showHome=0x7f090011;
         public static final int showTitle=0x7f090012;
         public static final int split_action_bar=0x7f090004;
-        public static final int states_spinner=0x7f090044;
+        public static final int states_spinner=0x7f090046;
         public static final int submit_area=0x7f09003e;
         public static final int tabMode=0x7f09000c;
         public static final int title=0x7f090029;
@@ -1760,11 +1763,17 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030014;
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
-        public static final int activity_main=0x7f030017;
-        public static final int support_simple_spinner_dropdown_item=0x7f030018;
+        public static final int activity_basic__info=0x7f030017;
+        public static final int activity_historical__zestimates=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int activity_result=0x7f03001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
     }
     public static final class menu {
-        public static final int main=0x7f0d0000;
+        public static final int basic__info=0x7f0d0000;
+        public static final int historical__zestimates=0x7f0d0001;
+        public static final int main=0x7f0d0002;
+        public static final int result=0x7f0d0003;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1827,6 +1836,9 @@ containing a value of this type.
         public static final int hello_world=0x7f0a0010;
         public static final int state=0x7f0a0015;
         public static final int title=0x7f0a0012;
+        public static final int title_activity_basic__info=0x7f0a0017;
+        public static final int title_activity_historical__zestimates=0x7f0a0018;
+        public static final int title_activity_result=0x7f0a0016;
     }
     public static final class style {
         /** 
@@ -1842,13 +1854,11 @@ containing a value of this type.
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
- API 11 theme customizations can go here. 
 
         Base application theme for API 14+. This theme completely replaces
         AppBaseTheme from BOTH res/values/styles.xml and
         res/values-v11/styles.xml on API 14+ devices.
     
- API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f0b00eb;
         /**  Application theme. 
