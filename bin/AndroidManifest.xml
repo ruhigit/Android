@@ -4,6 +4,8 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="21" />
@@ -21,6 +23,18 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".Basic_Info"
+            android:label="@string/title_activity_basic__info" >
+        </activity>
+        <activity
+            android:name=".Historical_Zestimates"
+            android:label="@string/title_activity_historical__zestimates" >
         </activity>
     </application>
 
