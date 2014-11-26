@@ -1,22 +1,43 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    >
+ 
+    <TextView
+        android:id="@+id/footerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	android:layout_margin="15dp"
+     	android:textColor="#000"
+     	android:textSize="12sp"
+     	android:gravity="center"
+     	android:text="@string/footer" />
+</RelativeLayout>
+
+       <ScrollView
+           
+    	 android:id="@+id/scrollView1"
+    	 android:layout_alignParentTop="true"
+    	 android:layout_above="@id/footer"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="#3d455b"
         android:layout_alignParentLeft="true" >
-
-      
-
-           
-
                 <TableLayout
                     android:stretchColumns="0,1"
                     android:id="@+id/main_table" 
-                    android:layout_weight="1"
                      android:layout_height="wrap_content" 
                      android:layout_width="match_parent">
             </TableLayout>
           
        
     </ScrollView>
+    </RelativeLayout>

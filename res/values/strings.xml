@@ -8,6 +8,8 @@
     <string name="address">Address*:</string>
     <string name="city">City*:</string>
     <string name="state">State*:</string>
+    <string name="footer">&#169; Zillow, Inc., 2006- 2014. Use is subject to <a href="http://www.zillow.com/corp/Terms.htm">Terms of Use</a>
+        <a href="http://www.zillow.com/zestimate/"> What\'s a Zestimate?</a></string>
 
     <string-array name="states_array">
         <item>AK</item>

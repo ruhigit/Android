@@ -30,6 +30,7 @@
       android:onClick="previous"
       android:text="Previous"
       android:layout_toLeftOf="@+id/space"
+    	 android:layout_above="@+id/footer1"
      />
    
    <TextView
@@ -50,7 +51,25 @@ android:layout_below="@+id/imageSwitcher1"
       android:layout_marginBottom="85dp"
       android:onClick="next"
       android:text="Next"
+       android:layout_above="@+id/footer1"
        />
 
-  
+   <RelativeLayout
+    android:id="@+id/footer1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    >
+ 
+    <TextView
+        android:id="@+id/footerText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	android:layout_margin="15dp"
+     	android:textColor="#000"
+     	android:textSize="12sp"
+     	android:gravity="center"
+     	android:text="@string/footer" />
+</RelativeLayout>
 </RelativeLayout>
