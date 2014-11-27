@@ -8,14 +8,23 @@
    android:paddingTop="@dimen/activity_vertical_margin"
    tools:context=".MainActivity" >
 
-  
+  <TextView
+      android:id="@+id/chartHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	android:layout_margin="1dp"
+     	android:textColor="#000"
+     	android:textSize="15sp"
+     	android:gravity="center"
+  />
 
    <ImageSwitcher
       android:id="@+id/imageSwitcher1"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_centerHorizontal="true"
-      android:layout_centerVertical="true" >
+      android:layout_centerVertical="true" 
+      android:layout_alignParentTop="true">
    </ImageSwitcher>
   
 
@@ -26,7 +35,7 @@
       android:layout_height="wrap_content"
       android:layout_alignParentBottom="true"
       android:layout_centerHorizontal="true"
-      android:layout_marginBottom="85dp"
+      android:layout_marginBottom="50dp"
       android:onClick="previous"
       android:text="Previous"
       android:layout_toLeftOf="@+id/space"
@@ -48,7 +57,7 @@ android:layout_below="@+id/imageSwitcher1"
       android:layout_height="wrap_content"
       android:layout_alignParentBottom="true"
       android:layout_centerHorizontal="true"
-      android:layout_marginBottom="85dp"
+      android:layout_marginBottom="50dp"
       android:onClick="next"
       android:text="Next"
        android:layout_above="@+id/footer1"
